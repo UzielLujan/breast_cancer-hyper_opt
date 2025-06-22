@@ -1,0 +1,2 @@
+Nested CV Accuracy para Multilayer Perceptron: 0.977 ± 0.012
+Scores: 0.982, 0.974, 0.956, 0.982, 0.991

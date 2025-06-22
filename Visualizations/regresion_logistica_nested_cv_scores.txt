@@ -1,0 +1,2 @@
+Nested CV Accuracy para Regresion Logistica: 0.982 ± 0.006
+Scores: 0.982, 0.982, 0.982, 0.974, 0.991
