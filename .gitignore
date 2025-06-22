@@ -1,0 +1,16 @@
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos temporales de notebooks y editores
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+
+# Entornos virtuales 
+.env/
+.venv/
+
+# Archivos de sistema
+Thumbs.db
