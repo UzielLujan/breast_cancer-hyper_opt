@@ -55,7 +55,7 @@ def plot_3d_pca(X, y, title="Visualización PCA en 3D del dataset Cancer Breast"
     )
 
     pio.renderers.default = "browser"
-    fig.write_html("BreastCancer-hyperparam-opt/Visualizations/pca_3d.html")
+    fig.write_html("breast_cancer-hyper_op/Visualizations/pca_3d.html")
     fig.show()
 
 # Graficar F1-score de múltiples modelos
