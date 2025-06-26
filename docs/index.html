@@ -2,12 +2,70 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Visualizaciones - Breast Cancer HyperOpt</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visualizaciones del Proyecto - Breast Cancer HyperOpt</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 2rem;
+    }
+    h1, h2 {
+      color: #66ffcc;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,255,204,0.3);
+      margin-bottom: 1rem;
+    }
+    a {
+      color: #82aaff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .file-link {
+      display: block;
+      margin-top: 0.5rem;
+    }
+  </style>
 </head>
 <body>
   <h1>Visualizaciones del Proyecto</h1>
-  <ul>
-    <li><a href="pca_3d.html" target="_blank">PCA en 3D</a></li>
-  </ul>
+
+  <section>
+    <h2>PCA en 3D</h2>
+    <a href="pca_3d.html" target="_blank">🔗 Ver visualización interactiva</a>
+  </section>
+
+  <section>
+    <h2>Modelos - Grid Search</h2>
+    <img src="logistic_regression_(grid_search).png" alt="Logistic Regression Grid Search">
+    <img src="mlp_classifier_(grid_search).png" alt="MLP Grid Search">
+    <a class="file-link" href="logistic_regression_(grid_search)_report.png" target="_blank">📊 Ver reporte Logistic</a>
+    <a class="file-link" href="mlp_classifier_(grid_search)_report.png" target="_blank">📊 Ver reporte MLP</a>
+  </section>
+
+  <section>
+    <h2>Modelos - Random Search</h2>
+    <img src="logistic_regression_(random_search).png" alt="Logistic Regression Random Search">
+    <img src="mlp_classifier_(random_search).png" alt="MLP Random Search">
+    <a class="file-link" href="logistic_regression_(random_search)_report.png" target="_blank">📊 Ver reporte Logistic</a>
+    <a class="file-link" href="mlp_classifier_(random_search)_report.png" target="_blank">📊 Ver reporte MLP</a>
+  </section>
+
+  <section>
+    <h2>Resultados Nested CV</h2>
+    <a class="file-link" href="regresion_logistica_nested_cv_scores.txt" target="_blank">📄 Logistic Regression Scores</a>
+    <a class="file-link" href="multilayer_perceptron_nested_cv_scores.txt" target="_blank">📄 MLP Classifier Scores</a>
+  </section>
 </body>
 </html>
