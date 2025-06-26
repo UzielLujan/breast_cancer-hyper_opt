@@ -28,7 +28,11 @@ El conjunto de datos utilizado es el **Breast Cancer Wisconsin Diagnostic Datase
 
 Las visualizaciones generadas (gráficos y reportes) están en la carpeta [`Visualizations/`](./Visualizations).
 
-Puedes descargar y abrir el archivo [`pca_3d.html`](./Visualizations/pca_3d.html) para ver la proyección interactiva en tu navegador.
+Puedes descargar y abrir el archivo [`pca_3d.html`](./Visualizations/pca_3d.html) 
+Para ver la proyección interactiva en tu navegador: 
+
+- [PCA en 3D](https://uziellujan.github.io/breast_cancer-hyper_opt/pca_3d.html)
+
 
 ---
 
