@@ -1,10 +1,10 @@
-# 🧠 breast_cancer-hyper_opt
+# breast_cancer-hyper_opt
 
 Optimización de hiperparámetros para la clasificación binaria del cáncer de mama utilizando `Logistic Regression` y `Multilayer Perceptron`, con evaluación robusta vía `Nested Cross Validation` y visualizaciones interactivas en línea.
 
 ---
 
-## 📌 Descripción del proyecto
+## Descripción del proyecto
 
 Este proyecto aplica técnicas de optimización de hiperparámetros (`Grid Search` y `Random Search`) sobre dos modelos clásicos de clasificación:
 
@@ -16,7 +16,7 @@ Además, se generan visualizaciones detalladas para análisis exploratorio y pre
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 El conjunto de datos utilizado es el **Breast Cancer Wisconsin Diagnostic Dataset**, disponible en la [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)).
 
@@ -26,9 +26,9 @@ El conjunto de datos utilizado es el **Breast Cancer Wisconsin Diagnostic Datase
 
 ---
 
-## 📊 Visualizaciones
+## Visualizaciones
 
-Ahora puedes ver todos los gráficos y reportes del proyecto directamente en tu navegador, gracias a **GitHub Pages**:
+Puedes ver todos los gráficos y reportes del proyecto directamente en:
 
 🔗 **Sitio del proyecto con visualizaciones**:  
 ➡️ [https://uziellujan.github.io/breast_cancer-hyper_opt/](https://uziellujan.github.io/breast_cancer-hyper_opt/)
@@ -41,7 +41,7 @@ Incluye:
 
 ---
 
-## 🧱 Estructura del proyecto
+## Estructura del proyecto
 
 ```bash
 breast_cancer-hyper_opt/
