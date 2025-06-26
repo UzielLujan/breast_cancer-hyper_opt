@@ -36,7 +36,7 @@ Puedes descargar y abrir el archivo [`pca_3d.html`](./Visualizations/pca_3d.html
 
 ```bash
 breast_cancer-hyper_opt/
-│
+├── BreastCancer_HyperOpt.ipynb # Notebook que incluye todo el flujo de trabajo
 ├── main.py                  # Script principal: orquesta todo el flujo
 ├── config.py                # Parámetros generales, grids y random search
 ├── data_utils.py            # Carga y partición del dataset
@@ -49,3 +49,7 @@ breast_cancer-hyper_opt/
 │   ├── *.png                # Reportes visuales por modelo
 │   ├── *.txt                # Scores de Nested CV
 └── requirements.txt         # Dependencias del proyecto
+
+
+
+
