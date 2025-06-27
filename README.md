@@ -35,8 +35,8 @@ Puedes ver todos los gráficos y reportes del proyecto directamente en:
 
 Incluye:
 
-- Proyección interactiva de **PCA en 3D**
-- Reportes visuales por modelo (F1, matrices, etc.)
+- Proyección interactiva de **PCA en 3D** de los datos
+- Reportes visuales por modelo (F1, accuracy, matrices de confusión, etc.)
 - Resultados de validación cruzada anidada
 
 ---

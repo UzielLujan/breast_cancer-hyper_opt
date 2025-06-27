@@ -14,8 +14,8 @@ def plot_3d_pca(X, y, title="Visualización PCA en 3D del dataset Cancer Breast"
     X_pca = pca.fit_transform(X)
     
     df_pca = pd.DataFrame(X_pca, columns=['PC1', 'PC2', 'PC3'])
-    df_pca['target'] = y.astype(str) if hasattr(y, 'astype') else [str(val) for val in y]
-
+    #df_pca['target'] = y.astype(str) if hasattr(y, 'astype') else [str(val) for val in y]
+    df_pca['target'] = pd.Series(y).map({0: "Benigno", 1: "Maligno"})
     fig = px.scatter_3d(
         df_pca,
         x='PC1', y='PC2', z='PC3',
@@ -55,7 +55,7 @@ def plot_3d_pca(X, y, title="Visualización PCA en 3D del dataset Cancer Breast"
     )
 
     pio.renderers.default = "browser"
-    fig.write_html("breast_cancer-hyper_op/Visualizations/pca_3d.html")
+    fig.write_html("C:\\Users\\uzgre\\Codes\\Python\\Projects\\breast_cancer-hyper_opt\\docs\\pca_3d.html")
     fig.show()
 
 # Graficar F1-score de múltiples modelos
