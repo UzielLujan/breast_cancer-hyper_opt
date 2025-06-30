@@ -33,6 +33,9 @@ Puedes ver todos los gráficos y reportes del proyecto directamente en:
 🔗 **Sitio del proyecto con visualizaciones**:  
 ➡️ [https://uziellujan.github.io/breast_cancer-hyper_opt/](https://uziellujan.github.io/breast_cancer-hyper_opt/)
 
+📦 **Dataset en Kaggle**  
+👉 [Breast Cancer Visuals - Kaggle](https://www.kaggle.com/datasets/uziellujn/breast-cancer-visuals)
+
 Incluye:
 
 - Proyección interactiva de **PCA en 3D** de los datos
