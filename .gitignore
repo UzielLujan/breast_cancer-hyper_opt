@@ -14,3 +14,20 @@ __pycache__/
 
 # Archivos de sistema
 Thumbs.db
+
+
+# Kaggle key
+kaggle.json
+
+# Outputs
+*.png
+*.txt
+*.html
+
+# Kaggle metadata
+dataset-metadata.json
+
+# Entornos y temporales
+__pycache__/
+.env
+*.pyc
